@@ -9,3 +9,5 @@ def press():
 
 label = tk.Label(master=win, text="Times clicked: none")
 button = tk.Button(master=win, command=press)
+
+win.mainloop()
